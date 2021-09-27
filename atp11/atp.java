@@ -58,6 +58,8 @@ public class atp {
             }
 
         } while (opcao < 1 || opcao > 4 || deveContinuar == 'V');
+        
+        System.out.printf("Obrigado");
 
         scan.close();
     }
